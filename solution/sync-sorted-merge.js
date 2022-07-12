@@ -1,6 +1,7 @@
 'use strict';
 
 // Print all entries, across all of the sources, in chronological order.
+
 module.exports = (logSources = [], printer) => {
   // logsDictionary is a key Value object, will handle keys and logs to prevent a forced search
   const logsDictionary = {};
