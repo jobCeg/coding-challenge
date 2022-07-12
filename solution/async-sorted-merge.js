@@ -43,8 +43,5 @@ module.exports = async (logSources = [], printer) => {
     i++;
   }
   printer.done();
-
-  return new Promise((resolve, reject) => {
-    resolve(console.log('Async sort complete.'));
-  });
+  return console.log('Async sort complete.')
 };
